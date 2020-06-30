@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulturaWeb.Api", "CulturaWeb\CulturaWeb.Api.csproj", "{DF63864D-70C2-49F4-A6AA-D77901B79C61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1C7FFB2D-EA66-4F4F-8130-F7E280EAB966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{81A7B03C-C306-45E1-8DF2-FE51AD1B5F7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{BF63B367-BD2F-48B3-B63D-C5EBCA3315DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulturaWeb.Domain", "CulturaWeb.Domain\CulturaWeb.Domain.csproj", "{BAAAF203-ECA8-45C1-B326-753E070AD515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulturaWeb.Repository.EF", "CulturaWeb.Repository.EF\CulturaWeb.Repository.EF.csproj", "{82D2FA66-48DB-44F5-946E-7F737DE06FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF63864D-70C2-49F4-A6AA-D77901B79C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF63864D-70C2-49F4-A6AA-D77901B79C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF63864D-70C2-49F4-A6AA-D77901B79C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF63864D-70C2-49F4-A6AA-D77901B79C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAAAF203-ECA8-45C1-B326-753E070AD515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAAF203-ECA8-45C1-B326-753E070AD515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAAF203-ECA8-45C1-B326-753E070AD515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAAF203-ECA8-45C1-B326-753E070AD515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D2FA66-48DB-44F5-946E-7F737DE06FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D2FA66-48DB-44F5-946E-7F737DE06FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D2FA66-48DB-44F5-946E-7F737DE06FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D2FA66-48DB-44F5-946E-7F737DE06FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF63864D-70C2-49F4-A6AA-D77901B79C61} = {1C7FFB2D-EA66-4F4F-8130-F7E280EAB966}
+		{BAAAF203-ECA8-45C1-B326-753E070AD515} = {81A7B03C-C306-45E1-8DF2-FE51AD1B5F7D}
+		{82D2FA66-48DB-44F5-946E-7F737DE06FFF} = {BF63B367-BD2F-48B3-B63D-C5EBCA3315DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFF0DD94-28AC-46B7-B64D-71ECA4AF2F22}
+	EndGlobalSection
+EndGlobal
